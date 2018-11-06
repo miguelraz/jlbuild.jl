@@ -1,0 +1,13 @@
+name = "jlbuild"
+uuid = "6028ae86-e214-11e8-35db-cdc05dc92e6b"
+author = "Elliot Saba"
+version = "0.0.0"
+
+[deps]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+GitHub = "bc5e4493-9b4d-5f90-b8aa-2b2bcaad7a26"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
+MySQL = "39abe10b-433b-5dbd-92d4-e302a9df00cd"

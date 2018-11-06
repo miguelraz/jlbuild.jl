@@ -53,7 +53,7 @@ function get_git_commit(obj::AbstractString)
         tagref = LibGit2.GitReference(repo, "refs/tags/$(obj)")
         return LibGit2.peel(LibGit2.GitCommit, tagref)
     end
-    
+
     throw(ArgumentError("git object $obj was not found in the repository"))
 end
 
@@ -145,7 +145,7 @@ function verify_action_type(event)
     # Certain event kinds are overloaded, we want to pay attention
     # to only certain actions, so gate those here.
     const actions = ["created", "opened"]
-    
+
     return event.payload["action"] in actions
 end
 
